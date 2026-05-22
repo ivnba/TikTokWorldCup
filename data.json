@@ -1,0 +1,24 @@
+{
+  "torneo": {
+    "nombre": "Torneo Mundial MVP Battles",
+    "fase": "Octavos de Final",
+    "equipos": [
+      { "id": 1, "nombre": "El Salvador", "bandera": "sv.png" },
+      { "id": 2, "nombre": "Guatemala", "bandera": "gt.png" },
+      { "id": 3, "nombre": "Honduras", "bandera": "hn.png" },
+      { "id": 4, "nombre": "Panamá", "bandera": "pa.png" },
+      { "id": 5, "nombre": "Argentina", "bandera": "ar.png" },
+      { "id": 6, "nombre": "Brasil", "bandera": "br.png" },
+      { "id": 7, "nombre": "Colombia", "bandera": "co.png" },
+      { "id": 8, "nombre": "México", "bandera": "mx.png" },
+      { "id": 9, "nombre": "Estados Unidos", "bandera": "us.png" },
+      { "id": 10, "nombre": "Chile", "bandera": "cl.png" },
+      { "id": 11, "nombre": "Ecuador", "bandera": "ec.png" },
+      { "id": 12, "nombre": "Paraguay", "bandera": "py.png" },
+      { "id": 13, "nombre": "Uruguay", "bandera": "uy.png" },
+      { "id": 14, "nombre": "Venezuela", "bandera": "ve.png" },
+      { "id": 15, "nombre": "España", "bandera": "es.png" },
+      { "id": 16, "nombre": "Francia", "bandera": "fr.png" }
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+:root {
+    --bg-dark: #05080c;
+    --neon-cyan: #00f2ff;
+    --panel-bg: #0f172a;
+}
+
+body { background: var(--bg-dark); color: white; font-family: sans-serif; margin: 0; }
+
+.app-wrapper { padding: 20px; height: 100vh; display: flex; flex-direction: column; }
+
+.main-content {
+    display: grid;
+    grid-template-columns: 280px 1fr 280px;
+    gap: 20px;
+    flex: 1;
+    margin-top: 20px;
+}
+
+.arena {
+    background: #111827;
+    border: 2px solid var(--neon-cyan);
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 0 30px rgba(0, 242, 255, 0.2);
+}
+
+.panel {
+    background: var(--panel-bg);
+    border: 1px solid #1e293b;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.bracket-display {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    height: 100%;
+    align-items: center;
+}
+
+.flag { width: 50px; height: 50px; border-radius: 50%; border: 2px solid white; }
+
+.match-head { 
+    display: flex; justify-content: center; align-items: center; gap: 20px;
+    border-bottom: 1px solid #334155; padding-bottom: 20px;
+}
